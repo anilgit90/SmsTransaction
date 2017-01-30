@@ -1,5 +1,7 @@
 # SmsTransaction
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d68e3c9ed36147f793ee2c58652003c1)](https://www.codacy.com/app/anilvrs_90/SmsTransaction?utm_source=github.com&utm_medium=referral&utm_content=anilvrs90/SmsTransaction&utm_campaign=badger)
+
 How to start the SmsTransaction application
 ---
 
