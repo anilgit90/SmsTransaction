@@ -1,5 +1,8 @@
 # SmsTransaction
 
+[![Build Status](https://semaphoreci.com/api/v1/anilsem2490/smstransaction/branches/master/badge.svg)](https://semaphoreci.com/anilsem2490/smstransaction)
+[![Dependency Status](https://www.versioneye.com/user/projects/588ee8b85715cf004e6fec3a/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/588ee8b85715cf004e6fec3a)
+
 How to start the SmsTransaction application
 ---
 

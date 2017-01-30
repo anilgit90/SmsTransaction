@@ -51,14 +51,14 @@ public class Sms {
 		return new SmsStatus(counter.incrementAndGet(),sendRequest(c_config.getApi_method(),url));
 	}
 
-	private String sendRequest(String method, String url) {
+	private String sendRequest(final String method, final String url) {
 		String result = "";
 		try {
-			if (method.equals("GET")) {
+			if (("GET").equals(method)) {
 				result = Unirest.get(url).asString().toString();
 			}
 
-			else if (method.equals("POST")) {
+			else if (("POST").equals(method)) {
 				result = Unirest.post(url).asString().toString();
 			}
 
