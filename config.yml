@@ -1,0 +1,22 @@
+server:
+  applicationConnectors:
+  - type: http 
+    port: 9199
+  adminConnectors:
+  - type: http
+    port: 9191
+  allowedMethods: 
+  - GET
+logging:
+  level: INFO
+  appenders:
+    - type: file
+      currentLogFilename: <logfilename>
+      threshold: ALL
+      archive: true
+      archivedLogFilenamePattern: <logfilename>-%d.log
+      archivedFileCount: 5
+api_url: <url>
+api_key: <key>
+api_method: GET
+api_test: <test-url>
